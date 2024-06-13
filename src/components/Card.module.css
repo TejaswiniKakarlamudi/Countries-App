@@ -1,0 +1,21 @@
+.card{
+    border: 3px solid rgb(214, 218, 222);
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+}
+
+.cardImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardName{
+    font-size: medium;
+    white-space: wrap;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: black;
+
+}

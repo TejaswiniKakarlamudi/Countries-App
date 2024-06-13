@@ -1,0 +1,15 @@
+.cardContainer{
+    margin: 5px;
+
+}
+.cardGrid {
+    margin:10px 80px ;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 4px;
+}
+
+.cardGrid > div {
+    /* Optional: Ensure each card takes full width of its column */
+    width: 100%;
+}
