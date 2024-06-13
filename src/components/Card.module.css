@@ -1,14 +1,16 @@
 .card{
     border: 3px solid rgb(214, 218, 222);
     width: 150px;
-    height: 150px;
-    margin: 4px;
+    height: 160px;
+    margin: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
 }
 
 .cardImage{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .cardName{
     font-size: medium;

@@ -34,6 +34,7 @@ function Home() {
                     return(
                     
                     <div key={index} className={styles.cardContainer}>
+                    
                         <Card data={item} />
                     </div>
                 )})
